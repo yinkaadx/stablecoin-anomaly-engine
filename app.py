@@ -30,7 +30,7 @@ if run_simulation:
     log_placeholder = st.empty()
 
     np.random.seed(42)
-    time_steps = pd.date_range(start=pd.Timestamp.now(), periods=100, freq="S")
+    time_steps = pd.date_range(start=pd.Timestamp.now(), periods=100, freq="s")
     
     peg_values = []
     outbound_velocity = []
